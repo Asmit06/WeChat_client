@@ -70,7 +70,7 @@ const NavBar = () => {
   const logoutHandler = async () => {
     try{
       const { data } = await axios.post(`${server}/api/user/logout`,{}, config);
-      Cookies.remove('user');
+      //Cookies.remove('user');
       dispatch(nullUser());
       toast.success(data.message);
     }catch(err){

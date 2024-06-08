@@ -77,7 +77,7 @@ const Login = () => {
             password: password.value
           },config);
       //console.log(data);
-      Cookies.set('user', JSON.stringify(data), { expires: 7 });
+      //Cookies.set('user', JSON.stringify(data), { expires: 7 });
       dispatch(setUser(data.user));
       toast.success(data.message, {
         id: toastId,
