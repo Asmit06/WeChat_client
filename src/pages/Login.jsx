@@ -134,7 +134,7 @@ const Login = () => {
   };
 
   return (
-    <div style={{ backgroundImage: `url(../../public/wallpaper.jpg)`, backgroundSize: 'cover', 
+    <div style={{ backgroundImage: `url(/wallpaper.jpg)`, backgroundSize: 'cover', 
       backgroundPosition: 'center', backgroundRepeat: 'no-repeat', }}>
       <Container component={"main"} maxWidth="xs"  sx={{ height: "100vh", 
       display: "flex",  justifyContent: "center",  alignItems: "center", }}>
