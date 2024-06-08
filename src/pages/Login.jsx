@@ -114,6 +114,7 @@ const Login = () => {
     };
 
     try{
+      console.log(server);
       const {data} = await axios.post(
         `${server}/api/user/register`,
         formData,
